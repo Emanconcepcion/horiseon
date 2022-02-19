@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <!--Change div class=header to just header-->
+    <!--Change <div class=header> to just <header>-->
     <header>
       <h1>Hori<span class="seo">seo</span>n</h1>
       <div>
@@ -27,8 +27,10 @@
       </div>
     </header>
     <div class="hero"></div>
-    <div class="content">
-      <div class="search-engine-optimization">
+    <!--changed div class section to Nav-->
+    <nav>
+      <!--added id -->
+      <div id="search-engine-optimization" class="search-engine-optimization"
         <img
           src="./assets/images/search-engine-optimization.jpg"
           class="float-left"
@@ -42,10 +44,8 @@
           visibility and find the right customers for your business.
         </p>
       </div>
-      <div
-        id="online-reputation-management"
-        class="online-reputation-management"
-      >
+      <!-- Fixed the structure work -->
+      <div id="online-reputation-management" class="online-reputation-management"
         <img
           src="./assets/images/online-reputation-management.jpg"
           class="float-right"
@@ -72,7 +72,7 @@
           your lead generation.
         </p>
       </div>
-    </div>
+    </nav>
     <div class="benefits">
       <div class="benefit-lead">
         <h3>Lead Generation</h3>
