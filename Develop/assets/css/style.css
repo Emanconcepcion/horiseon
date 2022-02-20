@@ -81,6 +81,8 @@ blockquote {
     margin-left: 20px;
 }
 
+/* added quotation on font */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,7 +90,7 @@ blockquote {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif;
     background-color: #2589bd;
 }
 
@@ -114,13 +116,13 @@ blockquote {
     max-width: 150px;
 }
 
-/* combined together */
+/* combined together and added quotation */
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -138,12 +140,12 @@ blockquote {
     font-size: 36px;
 }
 
-/* removed period in front of footer */
+/* removed period in front of footer and added quotation */
 
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif;
     text-align: center;
 }
 
